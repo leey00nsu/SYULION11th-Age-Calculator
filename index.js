@@ -24,8 +24,4 @@ function calculateAge() {
   resultAge.innerText = `귀하의 만 나이는 ${age}세 입니다.`;
 }
 
-function handleSubmit(event) {
-  event.preventDefault();
-}
-
 submitButton.addEventListener("click", calculateAge);
